@@ -89,3 +89,5 @@ mod 'rgbank',
 mod 'bolt',
   :git => 'https://github.com/puppetlabs/bolt.git',
   :ref => '0.5.1'
+
+mod 'puppetlabs/distelli_agent', '0.1.0'
