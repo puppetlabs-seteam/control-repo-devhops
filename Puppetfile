@@ -39,7 +39,7 @@ mod 'puppetlabs-facter_task', '0.1.3'
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
 mod 'ghoneycutt-ssh', '3.52.0'
-mod 'camptocamp-archive', '0.9.0'
+mod 'puppet/archive', '2.1.0'
 mod 'garethr/docker', '5.3.0'
 mod 'trlinkin/domain_membership', '1.1.2'
 mod 'ipcrm/echo', '0.1.3'
