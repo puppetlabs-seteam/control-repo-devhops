@@ -95,4 +95,9 @@ mod 'bolt',
   :git => 'https://github.com/puppetlabs/bolt.git',
   :ref => '0.5.1'
 
-mod 'puppetlabs/distelli_agent', '0.1.0'
+#this doesn't work because the module should be named 'distelli'
+#mod 'puppetlabs/distelli_agent', '0.1.0'
+
+mod 'distelli',
+  :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
+  :ret => '0.1.0'
