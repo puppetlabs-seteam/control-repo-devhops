@@ -100,4 +100,4 @@ mod 'bolt',
 
 mod 'distelli',
   :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
-  :ret => '0.1.0'
+  :ref => '0.1.0'
