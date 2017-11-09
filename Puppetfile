@@ -99,5 +99,5 @@ mod 'bolt',
 #mod 'puppetlabs/distelli_agent', '0.1.0'
 
 mod 'distelli',
-  :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
-  :ref => '0.1.0'
+  :git => 'https://github.com/timidri/puppetlabs-distelli_agent',
+  :ref => 'bugfix/timidri'
