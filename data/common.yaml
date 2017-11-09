@@ -1,4 +1,4 @@
 ---
 puppet_enterprise::profile::master::check_for_updates: false
-distelli::agent::access_token: FA3ETH167TVX0BSOKTCHN93UC
-distelli::agent::secret_key: ehjd2p10dsepua3fr3dbpoji0cinkb367lj1g
+profile::app::distelli_agent::access_token: FA3ETH167TVX0BSOKTCHN93UC
+profile::app::distelli_agent::secret_key: ehjd2p10dsepua3fr3dbpoji0cinkb367lj1g
