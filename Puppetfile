@@ -101,5 +101,3 @@ mod 'bolt',
 mod 'distelli',
   :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
   :ref => 'master'
-
-  mod 'adamcrews-nessus', '0.3.2'
