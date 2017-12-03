@@ -101,3 +101,5 @@ mod 'bolt',
 mod 'distelli',
   :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
   :ref => 'master'
+
+mod 'puppetlabs-detect_wannacry', '0.6.2'
