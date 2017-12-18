@@ -83,9 +83,9 @@ mod 'nexcess-auditd', '2.0.0'
 mod 'tse-tse_facts',
   :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
 
-mod 'demo_cis',
-  :git => 'https://github.com/timidri/ipcrm-demo_cis.git',
-  :ref => 'fixes'
+#mod 'demo_cis',
+#  :git => 'https://github.com/timidri/ipcrm-demo_cis.git',
+#  :ref => 'fixes'
 
 mod 'rgbank',
   :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
