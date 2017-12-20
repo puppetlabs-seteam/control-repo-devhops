@@ -101,3 +101,7 @@ mod 'bolt',
 mod 'distelli',
   :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent',
   :ref => 'master'
+
+mod 'node_encrypt',
+  :git => 'https://github.com/binford2k/binford2k-node_encrypt',
+  :ref => '0.3.1'
