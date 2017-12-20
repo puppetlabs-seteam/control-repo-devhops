@@ -103,5 +103,5 @@ mod 'distelli',
   :ref => 'master'
 
 mod 'node_encrypt',
-  :git => 'https://github.com/binford2k/binford2k-node_encrypt.git',
-  :tag => '0.3.1'
+  :git => 'https://github.com/binford2k/binford2k-node_encrypt',
+  :tag => 'v0.3.1'
