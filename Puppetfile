@@ -105,3 +105,6 @@ mod 'distelli',
 mod 'node_encrypt',
   :git => 'https://github.com/binford2k/binford2k-node_encrypt',
   :tag => 'v0.3.1'
+
+mod 'meltdown',
+  :git => 'https://github.com/timidri/puppet-meltdown'
