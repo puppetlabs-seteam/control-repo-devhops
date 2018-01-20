@@ -110,10 +110,10 @@ mod 'node_encrypt',
   :git => 'https://github.com/binford2k/binford2k-node_encrypt',
   :tag => 'v0.3.1'
 
-#mod 'meltdown',
-#  :git => 'https://github.com/timidri/puppet-meltdown'
+mod 'meltdown',
+  :git => 'https://github.com/timidri/puppet-meltdown'
 
-mod 'timidri-meltdown', '0.8.0'
+#mod 'timidri-meltdown', '0.8.0'
 
 mod 'jenkins',
   :git => 'https://github.com/jenkinsci/puppet-jenkins.git',
