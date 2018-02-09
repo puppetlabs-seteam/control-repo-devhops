@@ -43,7 +43,7 @@ mod 'puppetlabs-transition', '0.1.1'
 mod 'jfryman-selinux', '0.4.0'
 mod 'ghoneycutt-ssh', '3.52.0'
 mod 'puppet/archive', '2.1.0'
-mod 'garethr/docker', '5.3.0'
+#mod 'garethr/docker', '5.3.0'
 mod 'trlinkin/domain_membership', '1.1.2'
 mod 'ipcrm/echo', '0.1.3'
 mod 'stahnma/epel', '1.2.2'
@@ -121,4 +121,10 @@ mod 'jenkins',
 
 mod 'netstat',
   :git => 'https://github.com/ipcrm/ipcrm-netstat.git',
+  :ref => 'master'
+
+mod 'puppetlabs-docker', '1.0.5'
+
+mod 'nginx_container',
+  :git => 'https://github.com/jmick44/nginx_container',
   :ref => 'master'
