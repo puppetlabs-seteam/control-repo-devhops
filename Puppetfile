@@ -128,3 +128,8 @@ mod 'puppetlabs-docker', '1.0.5'
 mod 'nginx_container',
   :git => 'https://github.com/jmick44/nginx_container',
   :ref => 'master'
+
+mod 'devhops',
+  :git => 'https://github.com/puppetlabs-seteam/devhops',
+  :ref => 'master'
+  
