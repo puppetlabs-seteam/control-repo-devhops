@@ -10,7 +10,7 @@ mod "puppetlabs/stdlib", '4.17.0'
 mod 'puppetlabs-ciscopuppet', '1.8.0'
 mod "puppetlabs/concat", '4.0.0'
 mod 'puppetlabs-acl', '2.0.1'
-mod 'puppetlabs/apache', '2.3.0'
+mod 'puppetlabs/apache', '3.0.0'
 mod 'puppetlabs/aws', '2.0.0'
 mod 'puppetlabs/azure', '1.1.1'
 mod 'puppetlabs-chocolatey', '2.0.2'
@@ -125,11 +125,6 @@ mod 'netstat',
 
 mod 'puppetlabs-docker', '1.0.5'
 
-mod 'nginx_container',
-  :git => 'https://github.com/jmick44/nginx_container',
-  :ref => 'master'
-
 mod 'devhops',
   :git => 'https://github.com/puppetlabs-seteam/devhops',
   :ref => 'master'
-  
