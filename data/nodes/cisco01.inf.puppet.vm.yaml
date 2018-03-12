@@ -1,6 +1,6 @@
 ---
 
-profile::network::cisco::vlans:
+profile::infrastructure::network::cisco::vlans:
   "200":
     ensure: 'present'
     shutdown: 'false'
@@ -17,7 +17,7 @@ profile::network::cisco::vlans:
     state: 'active'
     vlan_name: 'IT-vlan'
 
-profile::network::cisco::interfaces:
+profile::infrastructure::network::cisco::vlans:
   "ethernet1/1":
     ipaddress: "192.168.10.1"
     netmask: "24"
