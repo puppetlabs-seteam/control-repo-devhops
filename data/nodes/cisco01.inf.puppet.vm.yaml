@@ -17,7 +17,7 @@ profile::infrastructure::network::cisco::vlans:
     state: 'active'
     vlan_name: 'IT-vlan'
 
-profile::infrastructure::network::cisco::vlans:
+profile::infrastructure::network::cisco::interfaces:
   "ethernet1/1":
     ipaddress: "192.168.10.1"
     netmask: "24"
