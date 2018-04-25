@@ -1,4 +1,5 @@
-class profile::registry::regentries {
+#
+class profile::platform::demo::windows::registry::regentries {
 
   registry::value { 'registry_test_binary':
       key   => 'HKEY_LOCAL_MACHINE\SOFTWARE\PuppetRegDemo',
@@ -17,7 +18,7 @@ class profile::registry::regentries {
   registry::value { 'registry_test_string':
       key   => 'HKEY_LOCAL_MACHINE\SOFTWARE\PuppetRegDemo',
       value => 'Reg_TestStringValue',
-      data  => 'WinOps 2017 Demonstration',
+      data  => 'DevHops Demonstration',
       type  => 'string'
   }
 }

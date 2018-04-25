@@ -1,6 +1,6 @@
 # Windows DEMO Profiles
 class profile::platform::demo::windows {
-    # Various DSC Type operations.
+  # Various DSC Type operations.
   include ::profile::platform::demo::windows::dsc::dscaddreg
   include ::profile::platform::demo::windows::dsc::dscfile
   include ::profile::platform::demo::windows::dsc::dscfirewall
@@ -10,6 +10,4 @@ class profile::platform::demo::windows {
   include ::profile::platform::demo::windows::users::demousers
   # Set the power configuration.
   include ::profile::platform::demo::windows::power::power
-  # Install Process Explorer utility.
-  include ::profile::platform::demo::windows::util::processexplorer
 }

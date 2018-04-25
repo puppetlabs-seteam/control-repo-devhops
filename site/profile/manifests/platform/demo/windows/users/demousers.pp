@@ -1,22 +1,22 @@
 #
-class profile::users::demousers {
+class profile::platform::demo::windows::users::demousers {
 
-  user { 'winopsdemo_1':
+  user { 'DevHopsdemo_1':
     # on Windows can use username, domain\user and SID
-    name                 => 'WinOps DemoUser 1',
-    ensure               => present,
-    managehome           => true,
-    password             => 'GarbledPasswd!',
-    groups               => ['Administrators', 'Users']
+    ensure     => present,
+    name       => 'DevHops DemoUser 1',
+    managehome => true,
+    password   => 'GarbledPasswd!',
+    groups     => ['Administrators', 'Users']
   }
 
-  user { 'winopsdemo_2':
+  user { 'DevHopsdemo_2':
     # on Windows can use username, domain\user and SID
-    name                 => 'WinOps DemoUser 2',
-    ensure               => present,
-    managehome           => true,
-    password             => 'GarbledPasswd!',
-    groups               => ['Administrators', 'Users']
+    ensure     => present,
+    name       => 'DevHops DemoUser 2',
+    managehome => true,
+    password   => 'GarbledPasswd!',
+    groups     => ['Administrators', 'Users']
   }
 
 }

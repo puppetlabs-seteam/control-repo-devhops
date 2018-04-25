@@ -1,5 +1,5 @@
-
-class profile::dsc::dscaddreg {
+#
+class profile::platform::demo::windows::dsc::dscaddreg {
   # requires registry module for Puppet
   dsc_registry { 'registry_test_binary':
     dsc_ensure    => 'Present',
@@ -21,7 +21,7 @@ class profile::dsc::dscaddreg {
     dsc_ensure    => 'Present',
     dsc_key       => 'HKEY_LOCAL_MACHINE\SOFTWARE\PuppetDSCDemo',
     dsc_valuename => 'Dsc_TestStringValue',
-    dsc_valuedata => 'WinOps 2017 Demonstration (DSC)',
+    dsc_valuedata => 'DevHops Demonstration (DSC)',
     dsc_valuetype => 'String',
   }
 }
