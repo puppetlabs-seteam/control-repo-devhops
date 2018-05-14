@@ -84,6 +84,8 @@ mod 'jdowning-rbenv', '2.2.0'
 mod 'puppet-windows_env', '2.3.0'
 mod 'camptocamp-systemd', '1.1.0'
 
+mod 'puppetlabs-wsus_client', :latest
+
 mod 'tse-tse_facts',
   :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
 

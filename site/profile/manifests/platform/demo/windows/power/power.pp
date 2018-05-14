@@ -1,4 +1,5 @@
-class profile::power::power (
+#
+class profile::platform::demo::windows::power::power (
   $scheme = 'powersaver',
 ) {
   $guid = $scheme ? {

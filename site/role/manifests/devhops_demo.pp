@@ -4,5 +4,4 @@
 class role::devhops_demo {
   include ::profile::platform::baseline
   include ::profile::platform::demo
-
 }

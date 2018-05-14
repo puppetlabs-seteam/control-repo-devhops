@@ -13,5 +13,4 @@ class profile::platform::demo {
       fail('Unsupported operating system!')
     }
   }
-
 }
