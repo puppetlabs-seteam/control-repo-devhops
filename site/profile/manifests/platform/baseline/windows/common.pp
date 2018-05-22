@@ -16,14 +16,4 @@ class profile::platform::baseline::windows::common {
     type   => dword,
     data   => 1,
   }
-
-  $query    = "inventory[facts] { facts.hostname ~ 'windchops' }"
-  $response = puppetdb_query($query)
-  $dcip   = $response[0]['facts']['ipaddress']
-
-  dsc_xdnsserveraddress { 'dnsserveraddress':
-    dsc_address        => $dcip,
-    dsc_interfacealias => 'ethernet',
-    dsc_addressfamily  => 'ipv4',
-  }
 }
